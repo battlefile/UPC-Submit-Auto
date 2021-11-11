@@ -4,7 +4,7 @@ import json
 import lxml.html
 import re
 
-signIn = {'username': os.environ["username"], #学号
+signIn = {'username': os.environ["USERNAME"], #学号
           'password': os.environ["PASSWORD"]} #登陆密码
 
 headers = {
